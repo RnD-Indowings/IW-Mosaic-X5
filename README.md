@@ -18,8 +18,9 @@ To run this node, you need the following dependencies:
 1. Clone the required drivers inside your workspace `src` folder:
    ```bash
    cd {ws_name}/src
-   git clone https://github.com/ros-drivers/nmea_msgs.git
    git clone https://github.com/septentrio-gnss/septentrio_gnss_driver.git
+   cd ..
+   git clone https://github.com/ros-drivers/nmea_msgs.git
    
 2. Replace the .yaml configuration files (provided in this repository) with the corresponding ones in the drivers to ensure proper functionality.
 
