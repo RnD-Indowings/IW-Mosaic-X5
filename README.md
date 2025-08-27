@@ -6,7 +6,7 @@ This repository provides the setup and launch instructions for running the **Sep
 
 ## Requirements
 
-To run this node, you need the following dependencies:
+To run this node, you need the following dependencies (Go to the STAR section and you can find out those 2 repos there):
 
 - [`nmea_msgs`](https://github.com/ros-drivers/nmea_msgs)  
 - [`septentrio_gnss_driver`](https://github.com/septentrio-gnss/septentrio_gnss_driver)  
