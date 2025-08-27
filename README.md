@@ -1,4 +1,4 @@
-# Septentrio GNSS Driver Setup for MOSAIC-X5 
+# Septentrio GNSS Driver Setup for MOSAIC-X5 Module
 
 This repository provides the setup and launch instructions for running the **Septentrio GNSS Driver** with ROS2.  
 
