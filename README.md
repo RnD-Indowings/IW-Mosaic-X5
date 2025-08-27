@@ -22,7 +22,7 @@ To run this node, you need the following dependencies (Go to the STAR section an
    cd ..
    git clone https://github.com/ros-drivers/nmea_msgs.git
    
-2. Replace the .yaml configuration files (provided in this repository) with the corresponding ones in the drivers to ensure proper functionality.
+2. Replace the `.yaml` configuration files (provided in this repository) with the corresponding ones in the drivers to ensure proper functionality.
 
 3. Build
    ```bash
