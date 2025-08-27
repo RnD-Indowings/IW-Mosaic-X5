@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/VelSensorSetup.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "VelSensorSetup block" "\n"
+      "Block_Number 4244")
+    struct VelSensorSetup {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 port;
+
+      @verbatim (language="comment", text=
+        "m")
+      float lever_arm_x;
+
+      @verbatim (language="comment", text=
+        "m")
+      float lever_arm_y;
+
+      @verbatim (language="comment", text=
+        "m")
+      float lever_arm_z;
+    };
+  };
+};

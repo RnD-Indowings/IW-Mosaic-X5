@@ -1,0 +1,173 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/INSNavGeod.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "INSNavGeod block " "\n"
+      "Block_Number 4226")
+    struct INSNavGeod {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 gnss_mode;
+
+      uint8 error;
+
+      uint16 info;
+
+      @verbatim (language="comment", text=
+        "0.01 s")
+      uint16 gnss_age;
+
+      @verbatim (language="comment", text=
+        "rad")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        "rad")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "m (ellipsoidal)")
+      double height;
+
+      @verbatim (language="comment", text=
+        "m")
+      float undulation;
+
+      @verbatim (language="comment", text=
+        "0.01 m")
+      uint16 accuracy;
+
+      @verbatim (language="comment", text=
+        "0.0001 s")
+      uint16 latency;
+
+      uint8 datum;
+
+      @verbatim (language="comment", text=
+        "uint8       reserved")
+      uint16 sb_list;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodPosStdDev sub-block definition:" "\n"
+        "If the Position StdDev field is 1 then this sub block is available:" "\n"
+        "m")
+      float latitude_std_dev;
+
+      @verbatim (language="comment", text=
+        "m")
+      float longitude_std_dev;
+
+      @verbatim (language="comment", text=
+        "m")
+      float height_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodPosCov sub-block definition:" "\n"
+        "If the Position Cov field is 1 then this sub block is available:" "\n"
+        "m^2")
+      float latitude_longitude_cov;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float latitude_height_cov;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float longitude_height_cov;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodAtt sub-block definition:" "\n"
+        "If the Attitude field is 1 then this sub block is available:" "\n"
+        "deg")
+      float heading;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float roll;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodAttStdDev sub-block definition:" "\n"
+        "If the Attitude StdDev field is 1 then this sub block is available:" "\n"
+        "deg")
+      float heading_std_dev;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float pitch_std_dev;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float roll_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodAttCov sub-block definition:" "\n"
+        "If the Attitude Cov field is 1 then this sub block is available:" "\n"
+        "deg^2")
+      float heading_pitch_cov;
+
+      @verbatim (language="comment", text=
+        "deg^2")
+      float heading_roll_cov;
+
+      @verbatim (language="comment", text=
+        "deg^2")
+      float pitch_roll_cov;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodVel sub-block definition:" "\n"
+        "If the Velocity field is 1 then this sub block is available:" "\n"
+        "m/s")
+      float ve;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vn;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vu;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodVelStdDev sub-block definition:" "\n"
+        "If the Velocity StdDev field is 1 then this sub block is available:" "\n"
+        "m/s")
+      float ve_std_dev;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vn_std_dev;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vu_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavGeodVelCov sub-block definition:" "\n"
+        "If the Velocity Cov field is 1 then this sub block is available:" "\n"
+        "m^2/s^2")
+      float ve_vn_cov;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float ve_vu_cov;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float vn_vu_cov;
+    };
+  };
+};

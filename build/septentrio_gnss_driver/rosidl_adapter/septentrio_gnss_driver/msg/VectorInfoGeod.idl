@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/VectorInfoGeod.msg
+// generated code does not contain a copyright notice
+
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "VectorInfoGeod block")
+    struct VectorInfoGeod {
+      uint8 nr_sv;
+
+      uint8 error;
+
+      uint8 mode;
+
+      uint8 misc;
+
+      @verbatim (language="comment", text=
+        "m")
+      double delta_east;
+
+      @verbatim (language="comment", text=
+        "m")
+      double delta_north;
+
+      @verbatim (language="comment", text=
+        "m")
+      double delta_up;
+
+      @verbatim (language="comment", text=
+        "m")
+      float delta_ve;
+
+      @verbatim (language="comment", text=
+        "m")
+      float delta_vn;
+
+      @verbatim (language="comment", text=
+        "m")
+      float delta_vu;
+
+      @verbatim (language="comment", text=
+        "0.01 deg")
+      uint16 azimuth;
+
+      @verbatim (language="comment", text=
+        "0.01 deg")
+      int16 elevation;
+
+      uint16 reference_id;
+
+      @verbatim (language="comment", text=
+        "0.01 s")
+      uint16 corr_age;
+
+      uint32 signal_info;
+    };
+  };
+};

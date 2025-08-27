@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/RFStatus.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "septentrio_gnss_driver/msg/RFBand.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "RFStatus block" "\n"
+      "ROS message header")
+    struct RFStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 n;
+
+      uint8 sb_length;
+
+      uint8 flags;
+
+      sequence<septentrio_gnss_driver::msg::RFBand> rfband;
+    };
+  };
+};

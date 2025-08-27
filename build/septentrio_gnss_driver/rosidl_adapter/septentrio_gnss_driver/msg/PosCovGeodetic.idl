@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/PosCovGeodetic.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "PVTGeodetic block" "\n"
+      "ROS message header")
+    struct PosCovGeodetic {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 mode;
+
+      uint8 error;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_latlat;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_lonlon;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_hgthgt;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_bb;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_latlon;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_lathgt;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_latb;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_lonhgt;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_lonb;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float cov_hb;
+    };
+  };
+};

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/BaseVectorCart.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "septentrio_gnss_driver/msg/VectorInfoCart.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "BaseVectorCart block " "\n"
+      "Block_Number 4043")
+    struct BaseVectorCart {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 n;
+
+      uint8 sb_length;
+
+      sequence<septentrio_gnss_driver::msg::VectorInfoCart> vector_info_cart;
+    };
+  };
+};

@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/MeasEpochChannelType1.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/MeasEpochChannelType2.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "MeasEpochChannelType1 block")
+    struct MeasEpochChannelType1 {
+      uint8 rx_channel;
+
+      uint8 type;
+
+      uint8 sv_id;
+
+      @verbatim (language="comment", text=
+        "4294967.296 m")
+      uint8 misc;
+
+      @verbatim (language="comment", text=
+        "0.001 m")
+      uint32 code_lsb;
+
+      @verbatim (language="comment", text=
+        "0.0001 Hz")
+      int32 doppler;
+
+      @verbatim (language="comment", text=
+        "0.001 cycles")
+      uint16 carrier_lsb;
+
+      @verbatim (language="comment", text=
+        "65.536 cycles")
+      int8 carrier_msb;
+
+      @verbatim (language="comment", text=
+        "0.25 dB-Hz")
+      uint8 cn0;
+
+      uint16 lock_time;
+
+      uint8 obs_info;
+
+      uint8 n2;
+
+      sequence<septentrio_gnss_driver::msg::MeasEpochChannelType2> type2;
+    };
+  };
+};

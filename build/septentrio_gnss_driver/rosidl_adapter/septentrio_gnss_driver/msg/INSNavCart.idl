@@ -1,0 +1,169 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/INSNavCart.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "INSNavCart block " "\n"
+      "Block_Number 4225")
+    struct INSNavCart {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 gnss_mode;
+
+      uint8 error;
+
+      uint16 info;
+
+      @verbatim (language="comment", text=
+        "0.01 s")
+      uint16 gnss_age;
+
+      @verbatim (language="comment", text=
+        "m")
+      double x;
+
+      @verbatim (language="comment", text=
+        "m")
+      double y;
+
+      @verbatim (language="comment", text=
+        "m")
+      double z;
+
+      @verbatim (language="comment", text=
+        "0.01 m")
+      uint16 accuracy;
+
+      @verbatim (language="comment", text=
+        "0.1 ms")
+      uint16 latency;
+
+      uint8 datum;
+
+      @verbatim (language="comment", text=
+        "uint8       reserved")
+      uint16 sb_list;
+
+      @verbatim (language="comment", text=
+        "INSNavCartPosStdDev sub-block definition:" "\n"
+        "If the Position StdDev field is 1 then this sub block is available:" "\n"
+        "m")
+      float x_std_dev;
+
+      @verbatim (language="comment", text=
+        "m")
+      float y_std_dev;
+
+      @verbatim (language="comment", text=
+        "m")
+      float z_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavCartPosCov sub-block definition:" "\n"
+        "If the Position Cov field is 1 then this sub block is available:" "\n"
+        "m^2")
+      float xy_cov;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float xz_cov;
+
+      @verbatim (language="comment", text=
+        "m^2")
+      float yz_cov;
+
+      @verbatim (language="comment", text=
+        "INSNavCartAtt sub-block definition:" "\n"
+        "If the Attitude field is 1 then this sub block is available:" "\n"
+        "deg")
+      float heading;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float roll;
+
+      @verbatim (language="comment", text=
+        "INSNavCartAttStdDev sub-block definition:" "\n"
+        "If the Attitude StdDev field is 1 then this sub block is available:" "\n"
+        "deg")
+      float heading_std_dev;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float pitch_std_dev;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float roll_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavCartAttCov sub-block definition:" "\n"
+        "If the Attitude Cov field is 1 then this sub block is available:" "\n"
+        "deg^2")
+      float heading_pitch_cov;
+
+      @verbatim (language="comment", text=
+        "deg^2")
+      float heading_roll_cov;
+
+      @verbatim (language="comment", text=
+        "deg^2")
+      float pitch_roll_cov;
+
+      @verbatim (language="comment", text=
+        "INSNavCartVel sub-block definition:" "\n"
+        "If the Velocity field is 1 then this sub block is available:" "\n"
+        "m/s")
+      float vx;
+
+      @verbatim (language="comment", text=
+        "m/S")
+      float vy;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vz;
+
+      @verbatim (language="comment", text=
+        "INSNavCartVelStdDev sub-block definition:" "\n"
+        "If the Velocity StdDev field is 1 then this sub block is available:" "\n"
+        "m/s")
+      float vx_std_dev;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vy_std_dev;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vz_std_dev;
+
+      @verbatim (language="comment", text=
+        "INSNavCartVelCov sub-block definition:" "\n"
+        "If the Velocity Cov field is 1 then this sub block is available:" "\n"
+        "m^2/s^2")
+      float vx_vy_cov;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float vx_vz_cov;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float vy_vz_cov;
+    };
+  };
+};

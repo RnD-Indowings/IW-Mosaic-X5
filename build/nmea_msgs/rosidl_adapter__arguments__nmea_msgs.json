@@ -1,0 +1,15 @@
+{
+  "package_name": "nmea_msgs",
+  "non_idl_tuples": [
+    "/home/udit/septentrio/nmea_msgs:msg/Sentence.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpgga.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpgsa.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpgst.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpgsv.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/GpgsvSatellite.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gprmc.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpvtg.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gpzda.msg",
+    "/home/udit/septentrio/nmea_msgs:msg/Gphdt.msg"
+  ]
+}

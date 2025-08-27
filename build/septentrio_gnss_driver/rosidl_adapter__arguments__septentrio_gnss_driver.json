@@ -1,0 +1,31 @@
+{
+  "package_name": "septentrio_gnss_driver",
+  "non_idl_tuples": [
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/AIMPlusStatus.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/BaseVectorCart.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/BaseVectorGeod.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver/msg_ros2:msg/BlockHeader.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/GALAuthStatus.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/RFBand.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/RFStatus.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/MeasEpoch.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/MeasEpochChannelType1.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/MeasEpochChannelType2.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/PVTCartesian.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/PVTGeodetic.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/PosCovCartesian.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/PosCovGeodetic.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/ReceiverTime.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/VelCovCartesian.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/VelCovGeodetic.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/AttEuler.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/AttCovEuler.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/INSNavCart.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/INSNavGeod.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/IMUSetup.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/VectorInfoCart.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/VectorInfoGeod.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/VelSensorSetup.msg",
+    "/home/udit/septentrio/src/septentrio_gnss_driver:msg/ExtSensorMeas.msg"
+  ]
+}

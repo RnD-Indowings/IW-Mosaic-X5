@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c47e8adb59369362a3cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "nmea_msgs__py",
+					"jsonFile" : "directory-nmea_msgs__py-783836e2ff721c073edc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/udit/septentrio/build/nmea_msgs/nmea_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "nmea_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_nmea_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_nmea_msgs_egg-65629528fcab47413de0.json",
+					"name" : "ament_cmake_python_build_nmea_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_nmea_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_nmea_msgs-e5853c3abf5af829da4b.json",
+					"name" : "ament_cmake_python_copy_nmea_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs-1c0922219314881e5f1e.json",
+					"name" : "nmea_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__cpp-0b1910c9b92f3ae276aa.json",
+					"name" : "nmea_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nmea_msgs__py::@b56833807a631af8832b",
+					"jsonFile" : "target-nmea_msgs__py-47aaf16422b000a891e2.json",
+					"name" : "nmea_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_generator_c-36928ddbecb0d0364d24.json",
+					"name" : "nmea_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_generator_py-7dc55f478d1ded4eb330.json",
+					"name" : "nmea_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_c-286c21e371ea0786cccf.json",
+					"name" : "nmea_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_c__pyext-c1c6be53ac9b4cfa5000.json",
+					"name" : "nmea_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_cpp-3b80cac27f1bd1da39cf.json",
+					"name" : "nmea_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_fastrtps_c-d24bda3fc84d01954947.json",
+					"name" : "nmea_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_fastrtps_c__pyext-824d2f805dcf7ea63f57.json",
+					"name" : "nmea_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_fastrtps_cpp-98e394ed06822a7271e8.json",
+					"name" : "nmea_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_introspection_c-502d6304a46523740dfe.json",
+					"name" : "nmea_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_introspection_c__pyext-a18a0d31537ee9eec458.json",
+					"name" : "nmea_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs__rosidl_typesupport_introspection_cpp-f055c8e902e3241089b5.json",
+					"name" : "nmea_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nmea_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nmea_msgs_uninstall-3fa5e102c8a4f497b0cc.json",
+					"name" : "nmea_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-836cf6406d4f5de08bff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/udit/septentrio/build/nmea_msgs",
+		"source" : "/home/udit/septentrio/nmea_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

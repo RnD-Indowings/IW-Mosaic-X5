@@ -1,0 +1,103 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/PVTCartesian.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "PVTCartesian block" "\n"
+      "ROS message header")
+    struct PVTCartesian {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 mode;
+
+      uint8 error;
+
+      @verbatim (language="comment", text=
+        "m")
+      double x;
+
+      @verbatim (language="comment", text=
+        "m")
+      double y;
+
+      @verbatim (language="comment", text=
+        "m")
+      double z;
+
+      @verbatim (language="comment", text=
+        "m")
+      float undulation;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vx;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vy;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float vz;
+
+      @verbatim (language="comment", text=
+        "deg")
+      float cog;
+
+      @verbatim (language="comment", text=
+        "ms")
+      double rx_clk_bias;
+
+      @verbatim (language="comment", text=
+        "ppm")
+      float rx_clk_drift;
+
+      uint8 time_system;
+
+      uint8 datum;
+
+      uint8 nr_sv;
+
+      uint8 wa_corr_info;
+
+      uint16 reference_id;
+
+      @verbatim (language="comment", text=
+        "0.01s")
+      uint16 mean_corr_age;
+
+      uint32 signal_info;
+
+      uint8 alert_flag;
+
+      uint8 nr_bases;
+
+      @verbatim (language="comment", text=
+        "s")
+      uint16 ppp_info;
+
+      @verbatim (language="comment", text=
+        "0.0001 s")
+      uint16 latency;
+
+      @verbatim (language="comment", text=
+        "0.01 m")
+      uint16 h_accuracy;
+
+      @verbatim (language="comment", text=
+        "0.01 m")
+      uint16 v_accuracy;
+
+      uint8 misc;
+    };
+  };
+};

@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/VelCovCartesian.msg
+// generated code does not contain a copyright notice
+
+#include "septentrio_gnss_driver/msg/BlockHeader.idl"
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "VelCovCartesian block" "\n"
+      "ROS message header")
+    struct VelCovCartesian {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SBF block header including time header")
+      septentrio_gnss_driver::msg::BlockHeader block_header;
+
+      uint8 mode;
+
+      uint8 error;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vxvx;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vyvy;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vzvz;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_dtdt;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vxvy;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vxvz;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vxdt;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vyvz;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vydt;
+
+      @verbatim (language="comment", text=
+        "m^2/s^2")
+      float cov_vzdt;
+    };
+  };
+};

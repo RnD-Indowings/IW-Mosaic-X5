@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/AIMPlusStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module septentrio_gnss_driver {
+  module msg {
+    module AIMPlusStatus_Constants {
+      @verbatim (language="comment", text=
+        "-------------------------------")
+      const uint8 SPECTRUM_CLEAN = 0;
+      const uint8 INTERFERENCE_MITIGATED = 1;
+      const uint8 INTERFERENCE_PRESENT = 2;
+      @verbatim (language="comment", text=
+        "--------------------------------------------------------")
+      const uint8 NONE_DETECTED = 0;
+      const uint8 SPOOFING_DETECTED_BY_OSNMA = 1;
+      const uint8 SPOOFING_DETECTED_BY_AUTHENTCITY_TEST = 2;
+      const uint8 SPOOFING_DETECTED_BY_OSNMA_AND_AUTHENTCITY_TEST = 3;
+    };
+    @verbatim (language="comment", text=
+      "AIMPlusStatus message" "\n"
+      "ROS message header")
+    struct AIMPlusStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "ms since week start")
+      uint32 tow;
+
+      @verbatim (language="comment", text=
+        "weeks since Jan 06, 1980 at 00:00:00 UTC")
+      uint16 wnc;
+
+      uint8 interference;
+
+      @verbatim (language="comment", text=
+        "-------------------------------")
+      uint8 spoofing;
+
+      @verbatim (language="comment", text=
+        "--------------------------------------------------------")
+      boolean osnma_authenticating;
+
+      uint8 galileo_authentic;
+
+      uint8 galileo_spoofed;
+
+      uint8 gps_authentic;
+
+      uint8 gps_spoofed;
+    };
+  };
+};

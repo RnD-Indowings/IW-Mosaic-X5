@@ -1,0 +1,6 @@
+Invoking command in '/home/udit/septentrio/build/nmea_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/udit/septentrio/nmea_msgs -DCMAKE_INSTALL_PREFIX=/home/udit/septentrio/install/nmea_msgs
+Invoked command in '/home/udit/septentrio/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/udit/septentrio/nmea_msgs -DCMAKE_INSTALL_PREFIX=/home/udit/septentrio/install/nmea_msgs
+Invoking command in '/home/udit/septentrio/build/nmea_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/udit/septentrio/build/nmea_msgs -- -j16 -l16
+Invoked command in '/home/udit/septentrio/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/udit/septentrio/build/nmea_msgs -- -j16 -l16
+Invoking command in '/home/udit/septentrio/build/nmea_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/udit/septentrio/build/nmea_msgs
+Invoked command in '/home/udit/septentrio/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/udit/septentrio/build/nmea_msgs

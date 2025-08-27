@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from septentrio_gnss_driver/msg/RFBand.msg
+// generated code does not contain a copyright notice
+
+
+module septentrio_gnss_driver {
+  module msg {
+    @verbatim (language="comment", text=
+      "RFband block")
+    struct RFBand {
+      @verbatim (language="comment", text=
+        "Hz")
+      uint32 frequency;
+
+      @verbatim (language="comment", text=
+        "kHz")
+      uint16 bandwidth;
+
+      uint8 info;
+    };
+  };
+};
