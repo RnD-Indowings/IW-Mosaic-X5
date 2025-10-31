@@ -32,3 +32,11 @@ To run this node, you need the following driver dependencies :
    . setup.bash
    ros2 launch septentrio_gnss_driver rover.launch.py file_name:=rover.yaml
    ros2 launch septentrio_gnss_driver rover_node.launch.py file_name:=rover_node.yaml                         ------ FOR ANY KIND OF DRONES
+
+
+👨‍💻 Maintainer
+```bash
+Udit Ray
+Email: udit.ray@indowings.com
+Org: Indo Wings Private Limited
+Website: https://www.indowings.com
